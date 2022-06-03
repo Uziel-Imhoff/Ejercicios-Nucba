@@ -8,10 +8,8 @@
   }
   img{
       height: 100px;
-      position: absolute;
-      position: 100px;
   }
-  nav {
+  .menu {
     width: 50%;
   }
   
@@ -19,15 +17,16 @@
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content:right;
     align-items: center;
     padding: 0;
     margin: 0;
-}
+  }
   
   a {
     color: black;
     text-decoration: none;
+    padding: 50px;
   }
   
   header {
