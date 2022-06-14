@@ -1,0 +1,123 @@
+@font-face {
+        font-family: "langosta";
+        src: url("/fonts/Lobster/Lobster-Regular.ttf");
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(brown, black);
+}
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+img {
+    height: auto;
+    width: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.lista li {
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1 {
+    color: whitesmoke;
+    border: white solid 5px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.container img {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+.container h2 {
+    color: white;
+    margin: 50px;
+}
+.container {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parrafo {
+    width: 50%;
+    color: white;
+}
+
+.imagen {
+    width: 30%;
+}
+
+.titulo{
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.tarjeta{
+    height: 300px;
+    width: 330px;
+    padding: 20px 35px;
+    background: grey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+h4{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    color: brown; 
+}
+
