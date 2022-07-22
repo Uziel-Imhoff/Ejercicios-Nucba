@@ -95,6 +95,7 @@ section{
     width: 350px;
     height: auto;
     text-align: center;
+    border-radius: 100%;
 }
 
 .seccion2-hijo2 {
